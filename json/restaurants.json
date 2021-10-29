@@ -1,0 +1,82 @@
+[
+    {
+       "restaurantName":"L'Étoile",
+       "address":"Rue de Genève 102, 1004 Lausanne",
+       "lat":46.5261508,
+       "long":6.6097928,
+       "ratings":[
+          {
+             "stars":4,
+             "comment":"Très bonne adresse! Le serveur était très poli et agréable. Le repas était délicieux"
+          },
+          {
+             "stars":5,
+             "comment":"Staff très aimable et service efficace. Les plats sont très bons et assez copieux. Le tout dans un cadre raffiné et cosi."
+          }
+       ]
+    },
+    {
+       "restaurantName":"La Croix d'Ouchy",
+       "address":"Avenue d'Ouchy 43, 1006 Lausanne",
+       "lat":46.5116352,
+       "long":6.6297073,
+       "ratings":[
+          {
+             "stars":5,
+             "comment":"Restaurant très sympathique, des excellents plats et de très bon vin et une jolie terrasse."
+          },
+          {
+             "stars":3,
+             "comment":"J'ai trouvé ça correct, sans plus"
+          }
+       ]
+    },
+    {
+      "restaurantName":"L´Accademia",
+      "address":"Place du Port 11, 1006 Lausanne",
+      "lat":46.5073739,
+      "long":6.6285497,
+      "ratings":[
+         {
+            "stars":5,
+            "comment":"Mon fils m'a fait découvrir cet endroit magique. C'était un super moment tant pour l'endroit que pour la dégustation."
+         },
+         {
+            "stars":3,
+            "comment":"Le service est très long: 1h d'attente Au final sur 8 personnes 3 malades Et le personnel n'est pas très aimable."
+         }
+      ]
+   },
+   {
+      "restaurantName":"Ristorante St Paul",
+      "address":"Avenue d'Echallens 72, 1004 Lausanne",
+      "lat":46.5281253,
+      "long":6.6163489,
+      "ratings":[
+         {
+            "stars":3,
+            "comment":"Menu dégustation avec accord mets vins. Plats décevants et un petit goût d’inachevé. Certaines entrées et plats sont chiches (salade + crème d’huître ou un simple poireau ou encore un ris de veau sans aucun accompagnement..) Vraiment déçu par rapport à d’autres restaurants étoilés."
+         },
+         {
+            "stars":2,
+            "comment":"Voilà ce que l’on vous répond en arrivant dans le restaurant : « revenez dans 30’, c’est pour le bien-être du staff ! » Non vous ne rêvez pas ! 20.30, lundi soir, nous sommes 2 sans réservation, Le restaurant était presque à moitié vide. "
+         }
+      ]
+   },
+   {
+      "restaurantName":"Grappe d'Or",
+      "address":"Rue Cheneau-de-Bourg 3, 1003 Lausanne",
+      "lat":46.5207425,
+      "long":6.6364527,
+      "ratings":[
+         {
+            "stars":5,
+            "comment":"Une vrai expérience ! Sensationnel ! Tous les plats nous transportent dans l'univers incroyable et passionné d'Alain Passard ! Chef emblématique de la cuisine française, sa réputation est à la hauteur de sa cuisine. Un sans faute !"
+         },
+         {
+            "stars":5,
+            "comment":"l'expérience culinaire la plus incroyable qui soit, en 8 services"
+         }
+      ]
+   }
+ ]

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Avis Restaurants</title>
+    <link rel="stylesheet" type="text/css" href="./css/map.css" />
+    <link rel="stylesheet" type="text/css" href="./css/modal.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Note minimum -->
+      <select class="nbr-stars" id="min-rating-select">
+        <option value="0">0 étoile</option>
+        <option value="1">1 étoile</option>
+        <option value="2">2 étoiles</option>
+        <option value="3">3 étoiles</option>
+        <option value="4">4 étoiles</option>
+        <option value="5">5 étoiles</option>
+      </select>
+      <!-- Note maximum -->
+      <select class="nbr-stars" id="max-rating-select">
+        <option value="0">0 étoile</option>
+        <option value="1">1 étoile</option>
+        <option value="2">2 étoiles</option>
+        <option value="3">3 étoiles</option>
+        <option value="4">4 étoiles</option>
+        <option value="5">5 étoiles</option>
+      </select>
+      <button class="filter">Filtrer</button>
+    </header>
+
+    <!-- Modal -->
+    <div class="modal">
+      <div class="modal-content-rating">
+        <div class="close-modal">+</div>
+        <div class="modal-content-creating"></div>
+      </div>
+    </div>
+
+    <!-- Restaurants + map -->
+    <div class="container">
+      <aside id="aside">
+        <ul id="restaurant-list-aside"></ul>
+      </aside>
+      <!-- Map -->
+      <div id="map"></div>
+    </div>
+
+    <!-- Gsap -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+    ></script>
+    <!-- Modal -->
+    <script src="./js/modal.js"></script>
+    <!-- Animation -->
+    <script defer src="./js/animation.js"></script>
+    <!-- Marqueurs -->
+    <script src="./js/marker.js"></script>
+    <!-- Restaurants -->
+    <script src="./js/restaurants.js"></script>
+    <!-- Map -->
+    <script src="./js/map.js"></script>
+    <!-- Main -->
+    <script src="./js/main.js"></script>
+    <!-- Filter étoiles -->
+    <script src="./js/filter-restaurants.js"></script>
+    <!-- Api Key -->
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNVgTjcN6hZfxxe-wz-s85PQ-j1yWejus&callback=initMap&libraries=places"
+    ></script>
+  </body>
+</html>
